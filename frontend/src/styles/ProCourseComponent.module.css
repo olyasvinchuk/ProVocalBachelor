@@ -1,0 +1,83 @@
+.proCourseContainer{
+    width: 76%;
+    height: 86vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh;
+}
+.proCourseLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+    text-align: left;
+}
+.headerPRO{
+    font-size: 6em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 4vh;
+}
+.headerPRO span{
+    color: white;
+}
+.headerPRO em{
+    color: #5D86DB;
+    border-bottom: 4px solid #5D86DB;
+    padding-bottom: 4px;
+}
+.descrCont{
+    color: white;
+    font-size: 1.4em;
+}
+
+.startBtn{
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    height: 6vh;
+    color: white;
+    width: 12vw;
+    background-color: #5D86DB;
+    font-size: 1.8vw;
+}
+.proCourseRight{
+    width: 50%;
+    height: 60vh;
+}
+
+.blocksCont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.courseBlock{
+    width: 230px;
+    height: 230px;
+    display: block;
+    background: rgb(93,134,219);
+    background: linear-gradient(0deg, rgba(93,134,219,0.561611374407583) -1%, rgba(50,72,117,0) 80%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+.blockIcon{
+    width: 40%;
+}
+.blockTitle{
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-top: 2vh;
+}
+
+.courseBlock p{
+    width: 70%;
+}

@@ -1,0 +1,103 @@
+.topLeftWaves {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 45%;
+}
+.upperMainBlock {
+  display: flex;
+  justify-content: center;
+}
+.greetTextCont {
+  width: 76%;
+  height: 68vh;
+  display: flex;
+  flex-direction: row;
+}
+.textCont {
+  color: #fff;
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.mainTextCont {
+  text-align: left;
+}
+
+.mainText {
+  font-size: 3.5vw;
+  font-weight: 800;
+}
+.secondaryTextCont {
+  margin-top: 3vh;
+  width: 85%;
+  text-align: left;
+}
+
+.secondaryText {
+  font-size: 1.4vw;
+  margin-right: 2vw;
+}
+
+.greetImgCont {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.shadow {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-shadow: inset 0px -193px 40px -111px #0c1018;
+}
+
+.swipeBlockCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 10vh;
+}
+.swipeBlockCont span {
+  color: white;
+  margin-top: 10vh;
+}
+.btnConteiner {
+  display: flex;
+  justify-content: center;
+  --background-color: #7e7b7c;
+  transform: rotate(90deg);
+  margin-top: 3vh;
+}
+
+.arrowIcon path:nth-child(1) {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+.arrowIcon path:nth-child(2) {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+.arrowIcon path:nth-child(3) {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+@keyframes color_anim {
+  0% {
+    fill: rgb(255, 255, 255);
+  }
+
+  50% {
+    fill: var(--background-color);
+  }
+
+  100% {
+    fill: rgb(255, 255, 255);
+  }
+}

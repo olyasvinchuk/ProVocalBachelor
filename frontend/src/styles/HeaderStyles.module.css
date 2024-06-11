@@ -1,0 +1,93 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vh 12vw;
+  height: 11vh;
+  position: relative;
+  width: -webkit-fill-available;
+  z-index: 1;
+}
+.logoDarkCont {
+  width: 42%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.logoLightCont {
+  width: 42%;
+  display: flex;
+  align-items: center;
+  color: #0c1010;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.iconsCont {
+  display: flex;
+  width: 55px;
+  height: 55px;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.iconsLightCont {
+  display: flex;
+  width: 55px;
+  height: 55px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.logoDark {
+  width: 244px;
+  height: 44px;
+  color: #ffffff;
+}
+
+.logoLight {
+  width: 244px;
+  height: 44px;
+  color: #0c1010;
+}
+
+.accIcon {
+  width: 43px;
+  height: 44px;
+  margin-right: 20px;
+}
+
+.helpIcon {
+  width: 43px;
+  height: 44px;
+}
+
+.loginText {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 19px;
+}
+
+.logoutBtn {
+  background-color: transparent;
+  border: none;
+  margin-left: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+}
+.logoutBtn img {
+  width: 35px;
+}

@@ -1,0 +1,42 @@
+.openYourVoiceCont {
+  width: 76%;
+  height: 86vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.openVoiceTitle {
+  color: white;
+  width: 77%;
+  text-align: center;
+  font-size: 3.5vw;
+  font-weight: 800;
+}
+
+.openVoiceContent {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  z-index: 99;
+}
+
+.openVoiceLeft {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.openVoiceRight {
+  width: 50%;
+}
+
+.whiteDudeImg {
+  width: 75%;
+}
+
+.vave {
+  position: absolute;
+}

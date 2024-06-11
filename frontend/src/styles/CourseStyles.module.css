@@ -1,0 +1,133 @@
+.mainCont {
+  background-color: #0c1010;
+  height: 100vh;
+}
+
+.courseContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 4vh;
+  height: 75%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.moveIconCont {
+  display: flex;
+  width: 77%;
+}
+.buttonContainer {
+  display: flex;
+  width: 77%;
+  justify-content: center;
+}
+.wave {
+  position: absolute;
+  bottom: 0;
+}
+
+.courseMaterialsCont {
+  width: 77%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.courseTextMaterials {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 17px;
+}
+
+.courseImgMaterials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.fatText {
+  font-weight: 700;
+}
+
+.twoColumnList {
+  columns: 2;
+  padding: 0;
+  list-style-type: none;
+}
+
+.additionalCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.fatText2 {
+  font-weight: 700;
+  margin-top: 10px;
+}
+.courseType1TextMaterials {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 17px;
+  height: 82%;
+}
+
+.updateFormCont {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.731);
+  width: 100vw;
+  z-index: 100;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.updateFormCont form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+  width: 40%;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #0c1010;
+  padding: 15px;
+}
+.updateFormCont form input,
+select,
+textarea {
+  height: 50px;
+  box-shadow: 0px 4px 20px -7px white;
+  border: none;
+}
+
+.updateFormCont form textarea {
+  height: 90px;
+}
+.updateFormCont form label {
+  color: white;
+  margin-top: 40px;
+  padding-bottom: 5px;
+}
+.updateFormCont button {
+  margin-top: 20px;
+  align-self: center;
+}
+
+.cancelbtn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: 800;
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,74 @@
+.audioPlayer {
+  width: 250px;
+
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  border-radius: 10px;
+  justify-content: space-between;
+  color: white;
+  margin-top: 20px;
+  z-index: 99;
+}
+
+.titleCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  gap: 5px;
+  text-align: center;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+}
+
+.artist {
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0;
+}
+
+.audioControls {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.play,
+.pause {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.play {
+  background-image: url("../../assets/audioControls/play.svg");
+}
+
+.pause {
+  background-image: url("../../assets/audioControls/pause.svg");
+}
+
+.trackProg {
+  height: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.track {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}

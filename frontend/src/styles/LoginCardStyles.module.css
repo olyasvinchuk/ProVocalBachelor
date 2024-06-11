@@ -1,0 +1,123 @@
+.loginCardCont {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.loginCard {
+  display: flex;
+  width: 74.615vw;
+  height: 80.5407vh;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginCard img {
+  object-fit: fill;
+}
+
+.loginForm {
+  display: flex;
+  width: inherit;
+  margin-top: 2vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logBtn {
+  background-color: #000000;
+  color: #fff;
+  font-size: 1.3vw;
+  width: 23.5vw;
+  height: 6.4vh;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 6vh;
+  box-shadow: 0px 4px 6.9px 0 #c0bfbf;
+}
+
+.inputsCont {
+  display: flex;
+  height: 30%;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 61%;
+}
+
+.userNameInputGroup input {
+  width: 89%;
+  height: 6vh;
+  border-radius: 0.3rem;
+  padding: 0 1rem;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+  box-shadow: 0px 4px 6.9px 0 #c0bfbf;
+}
+
+.userNameInputGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  color: #8b8b8b;
+  width: max-content;
+}
+
+.userNameInputGroup input:hover,
+input:focus {
+  outline: none;
+  border-color: #656565;
+}
+
+.loginForm h2 {
+  font-size: 2.5em;
+  margin-top: 7vh;
+  margin-bottom: 6vh;
+}
+
+.orElement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 23vw;
+  margin-top: 4vh;
+}
+
+.orElement span {
+  color: #c7c7c7;
+}
+.greyLine {
+  width: 40%;
+  height: 0.1vh;
+  background-color: #c7c7c7;
+}
+.googleIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px -1px #c0bfbf;
+  border-radius: 50%;
+  width: 4vw;
+  height: 7vh;
+  margin-top: 3vh;
+  cursor: pointer;
+}
+
+.noAccTxt {
+  color: #8b8b8b;
+  margin-top: 3vh;
+  display: flex;
+  gap: 5px;
+}
+.noAccTxt a {
+  color: #8b8b8b;
+  text-decoration: underline;
+  cursor: pointer;
+}

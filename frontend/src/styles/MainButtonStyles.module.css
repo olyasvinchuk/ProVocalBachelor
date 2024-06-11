@@ -1,0 +1,23 @@
+.bigBtn {
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  height: 6vh;
+  color: white;
+  width: 12vw;
+  background-color: #5d86db;
+  font-size: 1.8vw;
+  cursor: pointer;
+}
+
+.smallBtn {
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  height: 4vh;
+  color: white;
+  width: 9vw;
+  background-color: #5d86db;
+  font-size: 19px;
+  cursor: pointer;
+}

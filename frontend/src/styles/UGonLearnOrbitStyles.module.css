@@ -1,0 +1,133 @@
+.UGonLearnContainer {
+  width: 76%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.UGonLearnContent {
+  display: flex;
+  width: 100%;
+  height: 99%;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  overflow: hidden;
+  padding-top: 1px;
+}
+.orbitText {
+  color: white;
+  list-style-type: none;
+  width: 520px;
+  font-size: 20px;
+  margin-left: 200px;
+  margin-top: 65px;
+}
+
+.orbitText ul {
+  list-style-type: none;
+}
+.orbitText ul li {
+  margin-bottom: 80px;
+}
+
+.orbitText ul li:nth-child(4) {
+  width: 400px;
+}
+.orbitContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 750px;
+  position: absolute;
+  right: -290px;
+}
+.orbit1 {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  border: 0.5px solid #323131;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orbit2 {
+  height: 80%;
+  width: 80%;
+  border: 0.5px solid #323131;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orbit3 {
+  height: 70%;
+  width: 70%;
+  border: 0.1px solid #323131;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orbit3 span {
+  color: white;
+  position: absolute;
+  font-size: 2.7rem;
+  font-weight: 700;
+  width: 510px;
+  text-align: right;
+  left: 0;
+  z-index: 99;
+}
+.orbitBackground {
+  width: 100%;
+  height: 100%;
+  background-color: #5d86db;
+  border-radius: 50%;
+  opacity: 30%;
+  filter: blur(55px);
+}
+.blueDot {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #5d86db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blueDot div {
+  background-color: white;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.dot1 {
+  top: calc(50% - 235px);
+  left: 65px;
+}
+
+.dot2 {
+  top: calc(50% - 135px);
+  left: 5px;
+}
+
+.dot3 {
+  top: calc(50% - 20px);
+  left: -17px;
+}
+
+.dot4 {
+  top: calc(50% + 100px);
+  left: 5px;
+}
+
+.dot5 {
+  top: calc(50% + 200px);
+  left: 65px;
+}
